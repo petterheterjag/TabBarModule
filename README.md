@@ -2,6 +2,8 @@
 
 TabBarModule is a module for the prototyping tool Framer. It makes it super easy to set up a tab bar navigation.
 
+![Screenshot](https://raw.githubusercontent.com/petterheterjag/tabBarModule/master/screenshot.png)
+
 Features:
 
 * It looks just like the default iOS tab bar (with background blur out of the box).
@@ -10,12 +12,14 @@ Features:
 * It has support for tinting icons (that means you can transform a transperant PNG with a black icon into any color you want by setting a property).
 * You can add badges to tab bar items.
 
+Only works in Framer Studio/Chrome/Safari.
+
 
 ## Examples
 
-#### Basic
-#### App store (with scrollComponents)
-#### Customized
+#### [Basic](http://share.framerjs.com/bsaw6yj3090m/)
+#### [App store (with scrollComponents)](http://share.framerjs.com/37f8ggj6q01q/)
+#### [Customized](http://share.framerjs.com/6kf6f60h816b/)
 
 
 ## Basic usage
@@ -37,11 +41,11 @@ tabBar = tabBarModule.tabBar
 
 ## Functions
 
-#### tabBar(items *object*)
+#### tabBarModule.tabBar(items *object*)
 Creates the tab bar.
 
 `icon` Path to icon *(required)*  
-`selectedIcon` Path to icon used when selected *(optional)*  
+`selectedIcon` Path to icon to use when selected *(optional)*  
 `view` Layer to show when item is selected *(optional)*
 
 ```coffeescript
