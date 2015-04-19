@@ -6,7 +6,6 @@ tabBarModule.defaults.backgroundColor = "#000"
 tabBarModule.defaults.opacity = 1.0
 tabBarModule.defaults.blur = 0
 tabBarModule.defaults.tintColor = "#fff"
-tabBarModule.defaults.tintColorUnselected = "#666"
 tabBarModule.defaults.showLabels = false
 tabBarModule.defaults.iconOffset = 0
 
@@ -30,9 +29,9 @@ searchView = new Layer
 
 # Create the tab bar
 tabBar = new tabBarModule.tabBar
-	Music: {icon: "images/music-icon@2x.png", view: musicView}
+	Music: {icon: "images/music.png", view: musicView}
 	Explore: {icon: "images/explore-icon@2x.png", view: exploreView}
-	Activity: {icon: "images/activity-icon@2x.png", view: activityView}
+	Activity: {icon: "images/activity.png", view: activityView}
 	Search: {icon: "images/search-icon@2x.png", view: searchView}
 
 # Create the line
