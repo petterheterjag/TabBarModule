@@ -2,9 +2,12 @@
 
 TabBarModule is a module for the prototyping tool Framer. It makes it super easy to set up a tab bar navigation.
 
+Created by Petter Nilsson  
+[petter.pro](http://petter.pro) / [@petterheterjag](http://twitter.com/petterheterjag)
+
 ![Screenshot](https://raw.githubusercontent.com/petterheterjag/tabBarModule/master/screenshot.png)
 
-Features:
+**Features:**
 
 * It looks just like the default iOS tab bar (with background blur out of the box).
 * But it's very easy to customize.
