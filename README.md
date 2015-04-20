@@ -12,7 +12,7 @@ Created by Petter Nilsson
 * It looks just like the default iOS tab bar (with background blur out of the box).
 * But it's very easy to customize.
 * It automatically shows the view/screen associated with the selected tab.
-* It has support for tinting icons (that means you can transform a transperant PNG with a black icon into any color you want by setting a property).
+* It has support for tinting icons (that means you can transform a transparent PNG with a black icon into any color you want by setting a property).
 * You can add badges to tab bar items.
 
 Only works in Framer Studio/Chrome/Safari.
