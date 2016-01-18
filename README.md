@@ -1,4 +1,4 @@
-# tabBarModule
+# TabBarModule
 
 TabBarModule is a module for the prototyping tool Framer. It makes it super easy to set up a tab bar navigation.
 
